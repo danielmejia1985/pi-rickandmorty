@@ -14,9 +14,8 @@ html {
 
 body {
   font-size: 4.5rem;
-  background-color: black;
+  background-color: rgb(138, 130, 130);
 
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,4 +35,13 @@ h3 {
 
 p {
   font-size: 2rem;
+}
+
+button {
+  padding: .5rem;
+}
+
+input {
+  padding: .5rem;
+  margin: 1rem 0;
 }
