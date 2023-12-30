@@ -11,6 +11,7 @@ const App = () => {
 
   return (
     <div>
+      <p>trabajando desde rama danielmejia1985 MEJIA</p>
       {/* <Card Rick={Rick}/> */}
       <Cards characters = {characters}/>
       <Searchbar onSearch={onSearch}/>
