@@ -1,11 +1,11 @@
 .containerCard {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 
   background-color: rgb(176, 230, 15);
   width: 100%;
   margin: 0 auto;
-  padding: 30px;
+  padding: 20px;
 }
 
 .itemCard {
@@ -13,4 +13,8 @@
   padding: 2rem .2rem;
   text-align: center;
   padding: .5rem 1.5rem;
+}
+
+@media(width<768px){
+  .containerCard{background-color: bisque; grid-template-columns: 1fr;}
 }
