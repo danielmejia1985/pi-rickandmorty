@@ -1,4 +1,15 @@
 .containerCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+
+  background-color: rgb(176, 230, 15);
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.itemCard {
   background-color: white;
   padding: 2rem .2rem;
   text-align: center;

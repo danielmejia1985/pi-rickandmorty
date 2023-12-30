@@ -4,7 +4,7 @@ const Card = (Rick) => {
     const {name, species, gender, image} = Rick;
 
     return (
-        <div className={card.containerCard}>
+        <div className={card.itemCard}>
             <button>X</button>
             <h2 className="">{name}</h2>
             <p className="">{species}</p>
