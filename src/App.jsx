@@ -11,10 +11,10 @@ const App = () => {
 
   return (
     <div>
+      <Searchbar onSearch={onSearch}/>
       <p>trabajando desde rama danielmejia1985 MEJIA</p>
       {/* <Card Rick={Rick}/> */}
       <Cards characters = {characters}/>
-      <Searchbar onSearch={onSearch}/>
     </div>
   )
 }

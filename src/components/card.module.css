@@ -1,7 +1,6 @@
 .containerCard {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  
 
   background-color: rgb(176, 230, 15);
   width: 100%;
