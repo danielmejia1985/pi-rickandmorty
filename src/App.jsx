@@ -14,6 +14,7 @@ const App = () => {
       <Searchbar onSearch={onSearch}/>
       {/* <Card Rick={Rick}/> */}
       <Cards characters = {characters}/>
+      <p>xavier777dev change</p>
     </div>
   )
 }
