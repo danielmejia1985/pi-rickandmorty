@@ -37,3 +37,11 @@ h3 {
 p {
   font-size: 2rem;
 }
+
+button {
+  padding: .5rem;
+}
+
+input {
+  padding: .5rem;
+}

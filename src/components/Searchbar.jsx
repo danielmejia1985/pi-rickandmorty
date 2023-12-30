@@ -3,7 +3,8 @@ const Searchbar = ({onSearch}) => {
 
     return (
         <div>
-            <button onClick={onSearch}>agregar</button>
+            <input type="text"/>
+            <button onClick={onSearch}>Agregar</button>
         </div>
     )
 };
