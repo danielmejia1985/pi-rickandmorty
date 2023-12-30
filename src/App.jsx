@@ -16,6 +16,7 @@ const App = () => {
       <Cards characters = {characters}/>
       <p>xavier777dev change</p>
       <p>xavier777dev change 2</p>
+      <h3>algo</h3>
     </div>
   )
 }
