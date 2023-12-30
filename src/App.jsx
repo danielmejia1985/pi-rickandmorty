@@ -5,7 +5,6 @@ import characters , {Rick} from "./data/data";
 import "./index.css"
 
 const App = () => {
-
   const onSearch = () => {
   }
 
