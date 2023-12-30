@@ -9,11 +9,11 @@ const App = () => {
   }
 
   return (
-    <div>
+    <>
       <Searchbar onSearch={onSearch}/>
       {/* <Card Rick={Rick}/> */}
       <Cards characters = {characters}/>
-    </div>
+    </>
   )
 }
 
